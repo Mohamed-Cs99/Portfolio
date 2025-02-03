@@ -5,9 +5,11 @@ export default function ResumeBtn() {
   return (
     <>
       <StyledWrapper>
-        <button className="button my-4">
-        Open My Resume
-        </button>
+
+        <a href="https://drive.google.com/drive/folders/14BoqjB2tVFL-DQYNSntGOgwksEDL7DwB" target="_blank" rel="noopener noreferrer" className="button my-4">
+          Open My Resume
+        </a>
+
       </StyledWrapper>
     </>
   )
