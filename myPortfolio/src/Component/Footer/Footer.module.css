@@ -1,0 +1,33 @@
+/* Import the desired Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.footer {
+  background-color: #1a202c; /* Tailwind's 'bg-gray-900' color */
+  color: #fff;
+  padding: 1.5rem 0; /* Tailwind's 'py-6' equivalent */
+  font-family: 'Roboto', sans-serif; /* Apply Google Font */
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5);
+  text-align: center; /* Center text */
+}
+
+.footer a {
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #63b3ed; /* Tailwind's 'hover:text-blue-500' equivalent */
+}
+
+.footer .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem; /* Equivalent to Tailwind's 'space-x-6' */
+  margin-bottom: 1rem; /* Equivalent to Tailwind's 'mb-4' */
+}
