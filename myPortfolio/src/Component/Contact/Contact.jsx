@@ -6,8 +6,8 @@ export default function Contact() {
   return (
     <div className={`${style.contactWrapper} font-semibold`}>
       <div className={`${style.headerWrapper} relative flex justify-center items-center py-5`}>
-        <h2 className={`${style.headerMain} text-4xl md:text-5xl lg:text-6xl`}>Contact Us</h2>
-        <h3 className={`${style.headerSub} text-6xl md:text-8xl lg:text-9xl`}>contact us</h3>
+        <h2 className={`${style.headerMain} text-4xl md:text-5xl lg:text-6xl`}>Contact Me</h2>
+        <h3 className={`${style.headerSub} text-6xl md:text-8xl lg:text-9xl`}>contact me</h3>
       </div>
       
       <div className={style.container}>
@@ -33,7 +33,7 @@ export default function Contact() {
               <p><a href="mailto:mohamed2017170366@outlook.com" className={style.contactLink}>mohamed2017170366@outlook.com</a></p>
             </div>
           </div>
-          <h4 className={`text-start`}>Connect with Us</h4>
+          <h4 className={`text-start `}>Connect with Us</h4>
           <div className={style.socialLinks}>
             <a href="https://www.linkedin.com/in/mohamed-maher-a6a2b8177/" target="_blank" rel="noopener noreferrer" className={style.contactLink}>
               <i className="fab fa-linkedin"></i>
