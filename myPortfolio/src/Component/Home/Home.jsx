@@ -6,7 +6,7 @@ import ResumeBtn from '../ResumeBtn/ResumeBtn';
 export default function Home() {
   return (
     <>
-      <section className="min-h-screen flex items-center justify-center bg-gray-900 bg-cover bg-center" style={{ backgroundImage: `url(${backgroundImage})` }}>
+      <section id='about' className="min-h-screen flex items-center justify-center bg-gray-900 bg-cover bg-center" style={{ backgroundImage: `url(${backgroundImage})` }}>
         <div className="home-portfolio font-serif container mx-auto h-full flex flex-col justify-center px-4">
           <div className="row bg-black bg-opacity-50 flex flex-wrap md:flex-nowrap items-center p-5 rounded-lg shadow-lg h-full md:h-auto">
             <div className="w-full md:w-1/4 p-5 flex justify-center md:justify-start">

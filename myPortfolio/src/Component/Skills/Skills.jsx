@@ -9,6 +9,7 @@ export default function Skills() {
     { name: 'JavaScript', icon: 'fab fa-js' },
     { name: 'React', icon: 'fab fa-react' },
     { name: 'Redux', icon: 'fab fa-redo' },
+    { name: 'Next.js', icon: 'fas fa-code' }, 
     { name: 'TypeScript', icon: 'fab fa-js' },
     { name: 'Responsive Design', icon: 'fas fa-mobile-alt' },
     { name: 'UI/UX Design', icon: 'fas fa-paint-brush' },
@@ -16,7 +17,7 @@ export default function Skills() {
     { name: 'SASS/SCSS', icon: 'fab fa-sass' },
     { name: 'GitHub', icon: 'fab fa-github' },
     { name: 'Git', icon: 'fab fa-git' },
-    { name: 'Agile Methodologies', icon: 'fas fa-sprint' },
+    // { name: 'Agile Methodologies', icon: 'fas fa-sprint' },
     { name: 'SQL Server', icon: 'fas fa-database' },
     { name: 'Problem Solving', icon: 'fas fa-brain'}
     // .NET Backend Skills
@@ -30,7 +31,7 @@ export default function Skills() {
   ];
 
   return (
-    <div className={`${style.skillsWrapper} py-5`}>
+    <div id='skills' className={`${style.skillsWrapper} py-5`}>
       <div className={`${style.headerWrapper} relative flex justify-center items-center py-5`}>
         <h2 className={`${style.headerMain} text-4xl md:text-5xl lg:text-6xl`}>Skills</h2>
         <h3 className={`${style.headerSub} text-6xl md:text-8xl lg:text-9xl`}>skills</h3>

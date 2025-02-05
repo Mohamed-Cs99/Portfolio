@@ -4,7 +4,7 @@ import Form from '../Form/Form';
 
 export default function Contact() {
   return (
-    <div className={`${style.contactWrapper} font-semibold`}>
+    <div id='contact' className={`${style.contactWrapper} font-semibold`}>
       <div className={`${style.headerWrapper} relative flex justify-center items-center py-5`}>
         <h2 className={`${style.headerMain} text-4xl md:text-5xl lg:text-6xl`}>Contact Me</h2>
         <h3 className={`${style.headerSub} text-6xl md:text-8xl lg:text-9xl`}>contact me</h3>
