@@ -1,6 +1,8 @@
 import React from 'react';
 import style from './Projects.module.css';
 import pr1Image from '../../assets/ecommerce.webp';
+import pr2Image from '../../assets/bake.jpg';
+import pr3Image from '../../assets/profile.jpg';
 import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa'; // Icons for buttons
 
 const projects = [
@@ -13,20 +15,20 @@ const projects = [
     githubLink: 'https://github.com/Mohamed-Cs99/eShop-react',
   },
   {
-    title: 'Project 2',
-    description: 'An e-commerce platform with a responsive design.',
-    image: 'https://via.placeholder.com/400x250',
-    tags: ['React', 'Redux', 'Firebase'],
-    demoLink: '#',
-    githubLink: '#',
+    title: 'Freshly Baked',
+    description: 'Whipping up deliciously fresh, handcrafted treats with love daily.',
+    image: pr2Image,
+    tags: ['HTML', 'CSS'],
+    demoLink: 'https://freshlybaked.netlify.app/',
+    githubLink: 'https://github.com/Mohamed-Cs99/FreshlyBaked',
   },
   {
-    title: 'Project 3',
-    description: 'A portfolio website showcasing my skills and projects.',
-    image: 'https://via.placeholder.com/400x250',
-    tags: ['HTML', 'CSS', 'JavaScript'],
-    demoLink: '#',
-    githubLink: '#',
+    title: 'Profilk',
+    description: 'Profile template site help you building your own website.',
+    image: pr3Image,
+    tags: ['HTML', 'CSS','Bootstrap', 'JavaScript'],
+    demoLink: 'https://profilk.netlify.app/',
+    githubLink: 'https://github.com/Mohamed-Cs99/ProfileTemplate',
   },
   // Add more projects here
 ];
