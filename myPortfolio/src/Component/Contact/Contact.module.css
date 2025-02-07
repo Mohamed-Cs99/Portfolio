@@ -9,8 +9,8 @@ body {
   margin: 0 auto;
   padding: 30px;
   border-radius: 0px;
-  background-color: #1a1a1a; 
-  color: #ffffff; 
+  background-color: #f9f9f9; 
+  color: #333333; 
   text-align: center;
 }
 
@@ -21,14 +21,14 @@ body {
 
 .headerMain {
   font-weight: 900;
-  color: #ffffff; 
+  color: #333333; 
   margin-bottom: 0;
   z-index: 1;
 }
 
 .headerSub {
   font-weight: 900;
-  color: #444444; 
+  color: #bbbbbb; 
   position: absolute;
   top: 50%;
   left: 50%;
@@ -53,9 +53,10 @@ body {
 
 .contactInfo, .contactForm {
   flex: 1;
-  background-color: #282828; 
+  background-color: #ffffff; 
   border-radius: 10px;
-  padding: 20px 10px;
+  padding: 50px 20px;
+  padding-bottom: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
 }
 
@@ -64,12 +65,12 @@ body {
   align-items: flex-start; /* Align items to the start */
   margin-bottom: 20px; 
   font-size: 16px;
-  color: #cccccc; 
+  color: #666666; 
 }
 
 .infoItem i {
   font-size: 24px; 
-  color: #66b3ff; 
+  color: #006bb3; 
   margin-right: 10px;
 }
 
@@ -80,13 +81,13 @@ body {
 }
 
 .contactLink {
-  color: #6a7075;
+  color: #333333;
   text-decoration: none;
   transition: color 0.3s ease-in-out;
 }
 
 .contactLink:hover {
-  color: #8c96a0; 
+  color: #005a99; 
   text-decoration: underline;
 }
 
@@ -101,18 +102,18 @@ body {
   margin-right: 20px;
   font-size: 20px;
   font-weight: 700;
-  color: #cccccc; 
+  color: #666666; 
 }
 
 .socialLinks a {
-  color: #66b3ff;
+  color: #006bb3;
   font-size: 24px; 
   margin: 0 10px;
   transition: color 0.3s ease-in-out;
 }
 
 .socialLinks a:hover {
-  color: #99ccff; 
+  color: #004b80; 
 }
 
 .form {
@@ -127,23 +128,23 @@ label {
   display: block;
   margin-bottom: 8px;
   font-weight: 500;
-  color: #cccccc; 
+  color: #666666; 
 }
 
 input, textarea {
   width: 100%;
   padding: 12px;
-  border: 1px solid #666666; 
+  border: 1px solid #cccccc; 
   border-radius: 8px;
   box-sizing: border-box;
   font-size: 16px;
   color: #333333;
-  background-color: #f9f9f9;
+  background-color: #ffffff;
   transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
 input:focus, textarea:focus {
-  border-color: #66b3ff; 
+  border-color: #006bb3; 
   background-color: #ffffff;
   outline: none; 
 }
@@ -167,9 +168,10 @@ textarea {
 }
 
 .submitButton:hover {
-  background-color: #005a99;
+  background-color: #004b80;
   transform: scale(1.05);
 }
+
 .iconLinks {
   display: flex;
   align-items: center;
@@ -188,4 +190,15 @@ textarea {
 
 .outlookIcon:hover, .gmailIcon:hover {
   transform: scale(1.1); /* Slightly enlarge icon on hover */
+}
+.contactHeader {
+  font-size: 2rem;
+  color: #006bb3;
+  margin-bottom: 20px;
+}
+
+.infoItem h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #333333;
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import MessageBtn from './../MessageBtn/MessageBtn';
 
 const Form = () => {
   return (
@@ -7,14 +8,17 @@ const Form = () => {
       <div className="form-container">
         <form className="form">
           <div className="form-group">
-            <label htmlFor="email">Company Email</label>
+            <label htmlFor="email">Your Email</label>
             <input type="text" id="email" name="email" required />
           </div>
           <div className="form-group">
-            <label htmlFor="textarea">How Can We Help You?</label>
+            <label htmlFor="textarea">How Can I Help You?</label>
             <textarea name="textarea" id="textarea" rows={10} cols={50} required defaultValue={""} />
           </div>
-          <button className="form-submit-btn" type="submit">Submit</button>
+          <div className=' m-auto'>
+            <MessageBtn />
+          </div>
+
         </form>
       </div>
     </StyledWrapper>

@@ -34,7 +34,7 @@ export default function Skills() {
     <div id='skills' className={`${style.skillsWrapper} py-5`}>
       <div className={`${style.headerWrapper} relative flex justify-center items-center py-5`}>
         <h2 className={`${style.headerMain} text-4xl md:text-5xl lg:text-6xl`}>Skills</h2>
-        <h3 className={`${style.headerSub} text-6xl md:text-8xl lg:text-9xl`}>skills</h3>
+        <h3 className={`${style.headerSub} text-6xl md:text-8xl lg:text-9xl`}>Skills</h3>
       </div>
       <div className={`${style.skillsContainer} ${style.container} px-4 md:px-8 lg:px-16`}>
         {skills.map((skill, index) => (
