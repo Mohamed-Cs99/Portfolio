@@ -1,6 +1,8 @@
 import React from 'react';
 import style from './Contact.module.css';
 import Form from '../Form/Form';
+import outlookIcon from '../../assets/outlook.jpg'; // Add the path to your Outlook icon image
+import gmailIcon from '../../assets/gmail.png'; // Add the path to your Gmail icon image
 
 export default function Contact() {
   return (
@@ -16,7 +18,7 @@ export default function Contact() {
             <i className="fas fa-map-marker-alt"></i>
             <div>
               <p>Address</p>
-              <p>123 Main Street, Cairo, Egypt</p>
+              <p> Cairo, Egypt</p>
             </div>
           </div>
           <div className={style.infoItem}>
@@ -30,7 +32,14 @@ export default function Contact() {
             <i className="fas fa-envelope"></i>
             <div>
               <p>Email</p>
-              <p><a href="mailto:mohamed2017170366@outlook.com" className={style.contactLink}>mohamed2017170366@outlook.com</a></p>
+              <p className={style.iconLinks}>
+                <a href="mailto:mohamed2017170366@outlook.com" className={style.contactLink}>
+                  <img src={outlookIcon} alt="Outlook Icon" className={`${style.outlookIcon} object-cover`} />
+                </a>
+                <a href="mailto:mohammedmaher207@gmail.com" className={`${style.contactLink} object-cover`}>
+                  <img src={gmailIcon} alt="Gmail Icon" className={style.gmailIcon} />
+                </a>
+              </p>
             </div>
           </div>
           <h4 className={`text-start `}>Connect with Us</h4>
@@ -39,10 +48,10 @@ export default function Contact() {
               <i className="fab fa-linkedin"></i>
             </a>
             <a href="https://github.com/Mohamed-Cs99" target="_blank" rel="noopener noreferrer" className={style.contactLink}>
-              <i className="fab fa-github"></i>
+              <i class="fab fa-github"></i>
             </a>
-            <a href="" target="_blank" rel="noopener noreferrer" className={style.contactLink}>
-              <i className="fab fa-facebook"></i>
+            <a href="https://www.facebook.com/profile.php?id=100008417509368" target="_blank" rel="noopener noreferrer" className={style.contactLink}>
+              <i class="fab fa-facebook"></i>
             </a>
           </div>
         </div>

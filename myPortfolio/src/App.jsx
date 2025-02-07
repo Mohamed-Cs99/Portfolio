@@ -7,6 +7,7 @@ import Navbar from './Component/Navbar/Navbar';
 import Skills from './Component/Skills/Skills';
 import Scroll from './Component/Scroll/Scroll';
 import Projects from './Component/Projects/Projects';
+import Testimonials from './Component/Testimonials/Testimonials';
 
 function App() {
 
@@ -17,8 +18,9 @@ function App() {
         <Navbar/>
         <Home />
         <Skills/>
-        <Contact />
         <Projects/>
+        {/* <Testimonials/> */}
+        <Contact />
         <Footer />
         <Scroll/>
       

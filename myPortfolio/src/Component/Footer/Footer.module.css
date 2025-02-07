@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 .footer {
-  background-color: #1a202c; /* Tailwind's 'bg-gray-900' color */
+  background-color: #191a1b; /* Tailwind's 'bg-gray-900' color */
   color: #fff;
   padding: 1.5rem 0; /* Tailwind's 'py-6' equivalent */
   font-family: 'Roboto', sans-serif; /* Apply Google Font */

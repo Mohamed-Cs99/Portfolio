@@ -80,13 +80,13 @@ body {
 }
 
 .contactLink {
-  color: #66b3ff;
+  color: #6a7075;
   text-decoration: none;
   transition: color 0.3s ease-in-out;
 }
 
 .contactLink:hover {
-  color: #99ccff; 
+  color: #8c96a0; 
   text-decoration: underline;
 }
 
@@ -169,4 +169,23 @@ textarea {
 .submitButton:hover {
   background-color: #005a99;
   transform: scale(1.05);
+}
+.iconLinks {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Adjust the gap as needed */
+}
+
+.outlookIcon, .gmailIcon {
+  width: 100%; /* Adjust the size as needed */
+  height: 30px; /* Adjust the size as needed */
+  vertical-align: middle; /* Align icon with text */
+  cursor: pointer;
+  border: none;
+  background: none;
+  transition: transform 0.3s ease-in-out;
+}
+
+.outlookIcon:hover, .gmailIcon:hover {
+  transform: scale(1.1); /* Slightly enlarge icon on hover */
 }
